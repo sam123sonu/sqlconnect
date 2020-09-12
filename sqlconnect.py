@@ -1,5 +1,5 @@
 import mysql.connector
-mydb = mysql.connector.connect(host='localhost',user='root',password='******')
+mydb = mysql.connector.connect(host='localhost',user='root',password='******') // i have marked * for password where u have to give password
 print(mydb.connection_id)
 db_Info = mydb.get_server_info()
 print("Connected to MySQL Server version ", db_Info)
